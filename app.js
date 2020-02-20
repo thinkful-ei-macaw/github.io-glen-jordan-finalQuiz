@@ -198,7 +198,7 @@ function generateScore() {
     return `<div class='outer-score-div'>
     <div class='inner-score-div'>
     <p>Your current Score is ${store.score}</p> 
-    <p>YOU GOT NONE OF THEM RIGHT!!</p>
+    <p>YOU GOT NONE OF THEM RIGHT!! ..SAD FACE</p>
     </div>
     </div>`;
   } else if (store.score > 0 && store.score < store.questions.length) {
